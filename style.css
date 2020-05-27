@@ -1,15 +1,27 @@
-body{
-    background: black
+html {
+    font-size: 18px;
 }
-  span {
-      color: orange;
-      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-      font-size: xx-large;
-    }
-    p{
-        width: 410px;
-        font-size: larger;
-        color: blanchedalmond;
-        margin-top: 10mm;
-        padding-left: 140mm;
-    }
+body{
+    background: black;
+    font-family: 'Playfair Display', serif;
+}
+
+.container{
+    width: 410px;
+    margin: 0 auto;
+}
+
+.avatar{
+    max-width: 100%;
+}
+
+.title{
+    color: orange;
+    font-size: 1.4rem;
+    font-weight: normal;
+}
+
+p{
+    color: blanchedalmond;
+    margin-top: 25px;
+}
